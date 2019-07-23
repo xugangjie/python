@@ -1,0 +1,7 @@
+opencv的使用
+opencvt图片处理：
+	cv2.resize( gray, dsize = (200,100))
+opencv视频处理:
+	import  numpy as np
+	import cv2
+	cv2.VideoCapture('./路径')#使用CV2读取视频
